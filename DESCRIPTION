@@ -1,0 +1,11 @@
+Package: pckgA
+Title: Pack for Testing `setOldClass` issues
+Description: Pack for Testing `setOldClass` issues
+Version: 0.1
+Author: Brodie Gaslam
+Maintainer: Brodie Gaslam <brodieDOTgaslam@MARISSAMAYERSCOMPANY.com>
+Depends:
+    R (>= 3.0.2),
+    methods
+License: GPL-2
+LazyData: true
