@@ -1,14 +1,13 @@
-setOldClass("file")
-setClassUnion("fileOrNULL", c("file", "NULL"))
-setClass("dummy", list(a="fileOrNULL"))
-
-#' Dummy function in namespaces that creates dummy object
-#' 
-#' Only purpose of this is to attempt to use a class with a slot "fileOrNULL"
-#' 
+fun.list <- list(
+  a=function(x) {
+    y <- x + 1
+    y
+  },
+  b=function(x) {
+    y <- x + 1
+    y
+  }
+)
 #' @export
-#' @return TRUE
 
-makeDummy <- function() {
-  new("dummy", a=file(tempfile()))
-}
+fun <- function() 1 + 1

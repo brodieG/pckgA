@@ -1,7 +1,8 @@
+
 Package: pckgA
-Title: Pack for Testing `setOldClass` issues
-Description: Pack for Testing `setOldClass` issues
-Version: 0.1
+Title: Pack for covr Tests
+Description: Dummy Package
+Version: 0.1.1
 Author: Brodie Gaslam
 Maintainer: Brodie Gaslam <brodieDOTgaslam@MARISSAMAYERSCOMPANY.com>
 Depends:
